@@ -1,0 +1,46 @@
+.header{
+    height:100px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 30px;
+}
+.header_logo{
+    flex:0.3;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 40px;
+}
+.logo_img{
+    height:70px;
+}
+.header_links{
+    flex:0.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header_links h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+.header_links h1:hover{
+    cursor: pointer;
+}
+.ham_icon{
+    display: none;
+}
+.contact{
+    padding:8px 15px;
+    border: none;
+    background-color: rgb(161,23,97);
+    color:white;
+    font-size: 18px;
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 5px;
+}
+.contact:hover{
+    cursor: pointer;
+}
