@@ -1,0 +1,169 @@
+.ques-ques-div {
+  position: relative;
+  padding: 40px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 29px 29px 60px #c3c3c3, -29px -29px 60px #fdfdfd;
+  margin-bottom: 50px;
+}
+.question-number {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+.ques-ques {
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: hsl(0, 0%, 60%);
+  margin-left: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 900;
+  transition: 0.3s;
+  /* background-color: rgb(253, 198, 253); */
+}
+.ques-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ques-control {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.ques-radio {
+  margin-top: 10px;
+  /* background-color: rgb(250, 223, 250); */
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+.ques-radio:hover {
+  background-color: rgb(226, 226, 226);
+}
+.ques-error-text{
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.rad-label {
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  padding: 14px 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rad-label:hover,
+.rad-label:focus-within {
+  background: hsla(0, 0%, 80%, 0.14);
+}
+
+.rad-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  z-index: -1;
+}
+
+.rad-design {
+  width: 22px;
+  height: 22px;
+  border-radius: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(203, 23, 193, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  position: relative;
+}
+
+.rad-design::before {
+  content: "";
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: hsl(0, 0%, 90%);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.rad-input:checked + .rad-design::before {
+  transform: scale(0);
+}
+
+.rad-text {
+  color: hsl(0, 0%, 60%);
+  margin-left: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+.rad-input:checked ~ .rad-text {
+  color: hsl(0, 0%, 40%);
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-effect {
+  border: none;
+  color: #000;
+}
+.btn-effect:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn-effect:hover {
+  color: #000;
+}
+.btn-effect:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.btn-effect:active {
+  top: 2px;
+}
