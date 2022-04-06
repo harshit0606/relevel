@@ -2,10 +2,18 @@ import React from "react";
 import Carousel from "../Carousel/Carousel";
 import imagee from "../../Assets/image.jpg";
 import Choice from "../../Assets/Mandible Guide Flange.png";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 import "./home.css";
+import "../Quiz/Start.css";
+import "../App.css";
+import Header from "../header/header";
+import Footer from "../Footer/Footer";
+
 function home() {
   return (
     <div>
+    <Header/>
       <Carousel />
       <div className="home1">
         <img src={imagee} />
@@ -27,6 +35,12 @@ function home() {
           <img src={Choice} />
         </div>
       </div>
+      <div className="quiz-div">
+        <Link className="linkk" to="/quiz">
+          <button className="start-btn effect">Start Quiz</button>
+        </Link>
+      </div>
+      <Footer/>
     </div>
   );
 }
