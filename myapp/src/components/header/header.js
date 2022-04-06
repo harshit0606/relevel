@@ -9,9 +9,10 @@ function Header() {
             <img className='logo_img' src={Logo} alt="logo"/>
         </div>
         <div className='header_links'>
-            <h1>About</h1>
+            {/*<h1>About</h1>
             <h1>Test</h1>
-            <button className='contact'>Contact us</button>
+  <button className='contact'>Contact us</button>*/}
+            <h1>Partial-mandibulectomy Prosthetic Guide</h1>
         </div>
         <div className='ham_icon'>
             <GiHamburgerMenu/>
