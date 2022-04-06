@@ -1,0 +1,28 @@
+{
+    "data": [
+      {
+        "qno": 1,
+        "question": "What is the capital of Croatia ?",
+        "choices": ["Split", "Osijek"],
+        "answer": "Zagreb"
+      },
+      {
+        "qno": 2,
+        "question": "What is the capital of Slovenia ?",
+        "choices": ["Celje", "Ljubljana"],
+        "answer": "Ljubljana"
+      },
+      {
+        "qno": 3,
+        "question": "What is the capital of Austria ?",
+        "choices": ["Graz", "Salzburg"],
+        "answer": "Vienna"
+      },
+      {
+        "qno": 4,
+        "question": "What is the capital of Serbia ?",
+        "choices": ["Belgrade", "Novi Sad"],
+        "answer": "Belgrade"
+      }
+    ]
+  }
