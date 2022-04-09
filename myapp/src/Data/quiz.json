@@ -2,26 +2,26 @@
     "data": [
       {
         "qno": 1,
-        "question": "What is the capital of Croatia ?",
-        "choices": ["Split", "Osijek"],
+        "question": "Age",
+        "choices": [" > 11 yrs ", " <= 11 yrs "],
         "answer": "Zagreb"
       },
       {
         "qno": 2,
-        "question": "What is the capital of Slovenia ?",
-        "choices": ["Celje", "Ljubljana"],
+        "question": "Mouth Opening",
+        "choices": [" >= 35mm ", " < 35mm "],
         "answer": "Ljubljana"
       },
       {
         "qno": 3,
-        "question": "What is the capital of Austria ?",
-        "choices": ["Graz", "Salzburg"],
+        "question": "Presence of text in arch opposing the resected part",
+        "choices": [" Present ", " Absent "],
         "answer": "Vienna"
       },
       {
         "qno": 4,
-        "question": "What is the capital of Serbia ?",
-        "choices": ["Belgrade", "Novi Sad"],
+        "question": "Deviation of mandible",
+        "choices": [" Less ", " More "],
         "answer": "Belgrade"
       }
     ]
