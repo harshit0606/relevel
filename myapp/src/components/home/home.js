@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "../Carousel/Carousel";
 import imagee from "../../Assets/image.jpg";
+import image2 from "../../Assets/A.png";
 import Choice from "../../Assets/Mandible Guide Flange.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
@@ -34,6 +35,7 @@ function home() {
         <div className="image_div">
           <img src={Choice} />
         </div>
+     
       </div>
       <div className="quiz-div">
         <Link className="linkk" to="/quiz">

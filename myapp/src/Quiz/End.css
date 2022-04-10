@@ -1,0 +1,21 @@
+.end-card{
+    margin-top: -80px;
+}
+.end-content{
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+}
+.end-content h3{
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.result{
+    display: flex;
+    width:90%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+}
+.result_img{
+    width:500px;
+}
