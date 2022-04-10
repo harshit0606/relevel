@@ -8,7 +8,7 @@ const Start = ({ onQuizStart }) => {
         <div className="start-card-contentt">
           <span className="start-card-subheading">Welcome to the</span>
           <br />
-          <h1 className="start-card-heading">XYZ Assesment</h1>
+          <h1 className="start-card-heading">Prosthesis selection tool</h1>
           <p className="start-card-text">
             The tool makes use of the ITI’s highly regarded classification
             system referred to as SAC: Straightforward, Advanced, Complex. It is
