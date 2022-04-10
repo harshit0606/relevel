@@ -1,0 +1,68 @@
+{
+    "ansData": [
+      {
+        "choice": [" > 11 yrs ", " >= 35mm ", " Present ", " Less "],
+        "answer" : 12
+      },
+      {
+        "choice": [" > 11 yrs ", " >= 35mm ", " Present ", " More "],
+        "answer" : 12
+      },
+      {
+        "choice": [" > 11 yrs ", " >= 35mm ", " Absent ", " Less "],
+        "answer" : 13
+      },
+      {
+        "choice": [" > 11 yrs ", " >= 35mm ", " Absent ", " More "],
+        "answer" : 12
+      },
+      {
+        "choice": [" > 11 yrs ", " < 35mm ", " Present ", " Less "],
+        "answer" : 13
+      },
+      {
+        "choice": [" > 11 yrs ", " < 35mm ", " Present ", " More "],
+        "answer" : 13
+      },
+      {
+        "choice": [" > 11 yrs ", " < 35mm ", " Absent ", " Less "],
+        "answer" : 13
+      },
+      {
+        "choice": [" > 11 yrs ", " < 35mm ", " Absent ", " More "],
+        "answer" : 13
+      },
+      {
+        "choice": [" <= 11 yrs ", " >= 35mm ", " Present ", " Less "],
+        "answer" : 13
+      },
+      {
+        "choice": [" <= 11 yrs ", " >= 35mm ", " Present ", " More "],
+        "answer" : 13
+      },
+      {
+        "choice": [" <= 11 yrs ", " >= 35mm ", " Absent ", " Less "],
+        "answer" : 13
+      },
+      {
+        "choice": [" <= 11 yrs ", " < 35mm ", " Present ", " More "],
+        "answer" : 13
+      },
+      {
+        "choice": [" <= 11 yrs ", " < 35mm ", " Present ", " Less "],
+        "answer" : 13
+      },
+      {
+        "choice": [" <= 11 yrs ", " < 35mm ", " Present ", " More "],
+        "answer" : 13
+      },
+      {
+        "choice": [" <= 11 yrs ", " < 35mm ", " Absent ", " Less "],
+        "answer" : 13
+      },
+      {
+        "choice": [" <= 11 yrs ", " < 35mm ", " Absent ", " More "],
+        "answer" : 13
+      }
+    ]
+  }
