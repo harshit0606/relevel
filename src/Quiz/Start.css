@@ -1,0 +1,69 @@
+.start-card-contentt{
+    padding-left: 20px;
+}
+.start-card-subheading{
+    color: rgb(138, 138, 138);
+    font-size: 28px;
+}
+.start-card-heading{
+    color: #222;
+    font-size: 42px;
+}
+
+.start-card-text{
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    margin-right: 300px;
+}
+
+.start-btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.start-btn:hover,
+.btn:focus {
+  color: rgb(0, 0, 0);
+  outline: 0;
+}
+
+.effect {
+  border-color: #f1c40f;
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: all 300ms ease-in-out;
+}
+.effect:hover {
+  background-position: 0;
+}
+
+.linkk{
+  text-decoration: none !important;
+}
+
+.quiz-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

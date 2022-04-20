@@ -1,0 +1,28 @@
+{
+    "data": [
+      {
+        "qno": 1,
+        "question": "Age",
+        "choices": [" > 11 yrs ", " <= 11 yrs "],
+        "answer": "Zagreb"
+      },
+      {
+        "qno": 2,
+        "question": "Mouth Opening",
+        "choices": [" >= 35mm ", " < 35mm "],
+        "answer": "Ljubljana"
+      },
+      {
+        "qno": 3,
+        "question": "Presence of text in arch opposing the resected part",
+        "choices": [" Present ", " Absent "],
+        "answer": "Vienna"
+      },
+      {
+        "qno": 4,
+        "question": "Deviation of mandible",
+        "choices": [" Less ", " More "],
+        "answer": "Belgrade"
+      }
+    ]
+  }
