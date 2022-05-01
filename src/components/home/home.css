@@ -1,18 +1,22 @@
 .home1{
   display: flex;
   align-items: center;
-    padding:50px 50px;
+    padding:50px 80px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 50px;
 }
 .home1 img{
     height:300px;
     width:450px;
-    margin-right: 40px;
+    margin-right: 0px;
     border-radius: 4px;
+    flex:0.4;
 }
 .home1 p{
     font-size: 22px;
     font-family: 'Montserrat',sans-serif;
+    flex:0.6;
 }
 .home1 span{
     color:rgb(161,23,97) ;
@@ -23,11 +27,11 @@
     width:100%;
 }
 .home2 h1{
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat',sans-serif;
     margin-bottom: 20px;
     margin-top: 50px;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 25px;
     color: rgb(161,23,97);
 }
@@ -60,4 +64,54 @@
     font-weight: 600;
     color: rgb(161,23,97);
     font-family: 'Montserrat',sans-serif;
+}
+@media(max-width:1000px){
+    .home1{
+        padding:50px 40px;
+        
+    }
+    .home1 img{
+    height:300px;
+    width:330px;
+    }
+    .home1 p{
+        font-size: 18px;
+        max-width: 500px;
+    }
+}
+@media(max-width:800px){
+    .home1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home1 img{
+    height:400px;
+    width:450px;
+    margin-bottom: 50px;
+    flex:1;
+    }
+    .home1 p{
+        flex:1;
+    }
+    .home2{
+        padding:50px 50px;
+    }
+
+}
+@media(max-width:500px){
+    .home1{
+        padding:20px 30px;
+    }
+    .home2{
+        padding:20px 20px;
+    }
+    .home2 h1{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .factors h2{
+        font-size: 20px;
+        margin-top: 20px;
+    }
 }
