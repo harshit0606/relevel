@@ -10,6 +10,7 @@ import "../Quiz/Start.css";
 import "../App.css";
 import Header from "../components/header/header";
 import Footer from "../components/Footer/Footer";
+import Points from "../components/Points";
 
 function home() {
   return (
@@ -40,6 +41,7 @@ function home() {
         <img src={image2} />
     </div>
       </div>
+      <Points/>
       <div className="quiz-div">
         <Link className="linkk" to="/quiz">
           <button className="start-btn effect">Click here for prosthetic guide</button>
